@@ -2,10 +2,6 @@
     margin: 0;
 }
 
-.content {
-    padding: 48px 128px;
-}
-
 body {
     display: flex;
     flex-direction: column;
@@ -16,6 +12,14 @@ ul {
     display: flex;
     list-style: none;
     gap: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content {
+    padding: 48px 128px;
 }
 
 .header {
@@ -35,10 +39,6 @@ ul {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
-}
-
-a {
-    text-decoration: none;
 }
 
 .hero-secondary-text, a{
@@ -78,4 +78,25 @@ a {
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
+}
+
+.testimonials.content {
+    display: flex;
+    flex-direction: column;
+    background: #e5e7eb;
+    justify-content: center;
+    padding: 84px 256px
+}
+
+.testimonial-text {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.testimonial-sign {
+   align-self:flex-end;
+   font-weight: bold;
+   font-size: 24px;
 }
