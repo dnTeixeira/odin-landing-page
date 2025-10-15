@@ -48,13 +48,13 @@ a {
 }
 
 .header-picture {
-    width: 400px;
+    width: 500px;
     height: 250px;
 }
 
 .hero-button, .action-button {
     background: #3882F6;
-    color: #e5e7eb;
+    color: #f9faf8;
     border-color: transparent;
     padding: 8px 32px;
     border-radius: 8px;
@@ -104,13 +104,21 @@ a {
 .action.content {
     display: flex;
     justify-content: space-between;
-    color: white;
     background: #3882F6;
+    border-radius: 8px;
     margin: 84px 128px;
 }
 
+.action-texts h3 {
+    color: #f9faf8;
+}
+
+.action-texts p {
+    color: #e5e7eb
+}
+
 .action-button {
-    border: 2px solid white;
+    border: 2px solid #f9faf8;
 }
 
 .footer {
