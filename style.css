@@ -3,6 +3,7 @@
 }
 
 body {
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     font-family: "Roboto", sans-serif;
@@ -20,6 +21,7 @@ a {
 
 .content {
     padding: 48px 128px;
+    flex: 1;
 }
 
 .header {
@@ -75,7 +77,8 @@ a {
 
 .information-pictures {
     display: flex;
-    justify-content: space-evenly;
+    gap: 32px;
+    justify-content: center;
     align-items: center;
     text-align: center;
 }
@@ -104,6 +107,7 @@ a {
 .action.content {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background: #3882F6;
     border-radius: 8px;
     margin: 84px 128px;
